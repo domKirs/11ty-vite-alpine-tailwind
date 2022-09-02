@@ -1,0 +1,27 @@
+{
+  "name": "11ty-vite-alpine-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domKirs/11ty-vite-alpine-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domKirs/11ty-vite-alpine-tailwind/issues"
+  },
+  "homepage": "https://github.com/domKirs/11ty-vite-alpine-tailwind#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.4",
+    "@11ty/eleventy-plugin-vite": "^1.0.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.10.3"
+  }
+}
