@@ -1,3 +1,1 @@
-p {
-  color: hotpink;
-}
+@import "postcss/reset.css";

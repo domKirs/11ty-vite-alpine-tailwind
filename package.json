@@ -19,7 +19,11 @@
   "homepage": "https://github.com/domKirs/11ty-vite-alpine-tailwind#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.4",
-    "@11ty/eleventy-plugin-vite": "^1.0.0"
+    "@11ty/eleventy-plugin-vite": "^1.0.0",
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^5.0.6"
   },
   "dependencies": {
     "alpinejs": "^3.10.3"
