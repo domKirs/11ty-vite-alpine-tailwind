@@ -1,0 +1,5 @@
+button(x-data @click="$store.darkMode.toggle()") Toggle Dark Mode
+div(x-data)
+  p(:style="$store.darkMode.on && {color: 'black'}")
+    span(x-show="$store.darkMode.on") dark mode on
+    span(x-show="! $store.darkMode.on") dark mode off
