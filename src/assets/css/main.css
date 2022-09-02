@@ -1,1 +1,10 @@
-@import "postcss/reset.css";
+@import "base/base.css";
+@import "base/reset.css";
+
+@import "components/components.css";
+
+@import "utilities/utilities.css";
+
+h1 {
+  color: red;
+}
